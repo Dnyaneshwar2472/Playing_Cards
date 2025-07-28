@@ -1,0 +1,398 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: gray;
+}
+
+/* heart */
+.heart{
+    height: 22rem;
+    width: 15rem;
+    background-color: white;
+    position: absolute;
+    top: 1rem;
+    left: 1.5rem;
+    border-radius: 1rem;
+    
+
+}
+.a1-h{
+    color: red;
+    font-size: 40px;
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+        background-color: white;
+
+}
+.a2-h{
+    color: red;
+    font-size: 40px;
+    position: absolute;
+    top: 19rem;
+    left: 12rem;
+     background-color: white;
+     transform: rotate(180deg);
+
+}
+.triangle1{
+    width: 0;
+    height: 0;
+
+
+    border-top: 5rem solid rgb(248, 19, 19);
+    border-left: 4rem solid rgb(255, 255, 255);
+    border-right: 4rem solid rgb(255, 255, 255);
+ 
+
+    position: absolute;
+    top: 11rem;
+    left: 5rem;
+}
+.circle1{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    background-color: rgb(255, 0, 0);
+    position: absolute;
+    top: 7rem;
+    left: 4.5rem;
+}
+.circle2{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    background-color: red;
+        position: absolute;
+     top: 7rem;
+    left: 8.5rem;
+}
+
+.triangle1-sh1{
+    width: 0;
+    height: 0;
+
+
+    border-top: 1rem solid rgb(248, 19, 19);
+    border-left: 0.8rem solid rgb(255, 255, 255);
+    border-right: 0.8rem solid rgb(255, 255, 255);
+ 
+
+    position: absolute;
+    top: 4rem;
+    left: 0.5rem;
+}
+.circle1-sh1{
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    background-color: rgb(255, 0, 0);
+    position: absolute;
+    top: 3.2rem;
+    left: 1.2rem;
+}
+.circle2-sh1{
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    background-color: red;
+        position: absolute;
+     top: 3.2rem;
+    left: 0.4rem;
+}
+
+
+.triangle1-sh2{
+    width: 0;
+    height: 0;
+
+
+    border-bottom: 1rem solid rgb(248, 19, 19);
+    border-left: 0.8rem solid rgb(255, 255, 255);
+    border-right: 0.8rem solid rgb(255, 255, 255);
+ 
+
+    position: absolute;
+    top: 17rem;
+    left: 12.25rem;
+}
+.circle1-sh2{
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    background-color: rgb(255, 0, 0);
+    position: absolute;
+    top: 17.8rem;
+    left: 12.15rem;
+}
+.circle2-sh2{
+    height: 1rem;
+    width: 1rem;
+    border-radius: 50%;
+    background-color: red;
+        position: absolute;
+     top: 17.8rem;
+    left: 12.95rem;
+}
+
+/* diamend */
+
+.daimand{
+    height: 22rem;
+    width: 15rem;
+    background-color: white;
+    position: absolute;
+    top: 1rem;
+    left: 20rem;
+    border-radius: 1rem;
+    
+
+}
+.a1-d{
+    color: red;
+    font-size: 40px;
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+    background-color: #fff;
+}
+.a2-d{
+    color: red;
+    font-size: 40px;
+    position: absolute;
+    top: 19rem;
+    left: 12rem;
+    background:white;
+    transform: rotate(180deg);
+
+}
+
+
+.triangle2{
+    width: 0;
+    height: 0;
+
+
+   border-top: 5rem solid rgb(248, 19, 19);
+    border-left: 4rem solid rgb(255, 255, 255);
+    border-right: 4rem solid rgb(255, 255, 255);
+
+    position: absolute;
+    top: 12rem;
+    left: 23.5rem;
+}
+
+.triangle3{
+    width: 0;
+    height: 0;
+
+ border-bottom: 5rem solid rgb(248, 19, 19);
+    border-left: 4rem solid rgb(255, 255, 255);
+    border-right: 4rem solid rgb(255, 255, 255);
+
+    position: absolute;
+    top: 7rem;
+    left: 23.5rem;
+}
+
+
+/* spade */
+
+.spead{
+    height: 22rem;
+    width: 15rem;
+    background-color: white;
+    position: absolute;
+    top: 25rem;
+    left: 1.5rem;
+    border-radius: 1rem;
+    
+
+}
+.a1-s{
+    color: black;
+    font-size: 40px;
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+    background-color: #fff;
+}
+.a2-s{
+    color: black;
+    font-size: 40px;
+    position: absolute;
+    top: 19rem;
+    left: 12rem;
+    background:white;
+    transform: rotate(180deg);
+
+}
+
+
+.triangle-sp{
+    width: 0;
+    height: 0;
+
+
+    border-bottom: 5rem solid black;
+    border-left: 4rem solid rgb(255, 255, 255);
+    border-right: 4rem solid rgb(255, 255, 255);
+
+    position: absolute;
+    top: 30rem;
+    left: 5rem;
+    z-index: 5;
+}
+.circle1-sp{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    top: 34rem;
+    left: 4.5rem;
+    z-index: 4;
+}
+.circle2-sp{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    background-color: black;
+        position: absolute;
+     top: 34rem;
+    left: 8.5rem;
+    z-index: 3;
+}
+
+
+
+
+.ractangle-s{
+    height: 10rem;
+    width: 5rem;
+    position: absolute;
+    top: 32rem;
+    left: 6.5rem;
+    background-color: black;
+    z-index: 0;
+}
+
+.circle1-s{
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: 36rem;
+    left: 2.9rem;
+    z-index: 1;
+}
+.circle2-s{
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+    background-color:white;
+        position: absolute;
+     top: 36rem;
+    left: 9.1rem;
+    z-index: 2;
+}
+
+
+
+/* club  */
+.club{
+    height: 22rem;
+    width: 15rem;
+    background-color: white;
+    position: absolute;
+    top: 25rem;
+    left: 20rem;
+    border-radius: 1rem;
+    
+
+}
+.a1-c{
+    color: black;
+    font-size: 40px;
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+    background-color: #fff;
+}
+.a2-c{
+    color: black;
+    font-size: 40px;
+    position: absolute;
+    top: 19rem;
+    left: 12rem;
+    background:white;
+    transform: rotate(180deg);
+
+}
+
+.circle1-cb{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    top: 34rem;
+    left: 23rem;
+    z-index: 15;
+}
+.circle2-cb{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    background-color: black;
+        position: absolute;
+     top: 31rem;
+    left: 25rem;
+    z-index: 14;
+}
+.circle3-cb{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    background-color: black;
+        position: absolute;
+     top: 34rem;
+    left: 27rem;
+    z-index: 13;
+}
+
+
+.ractangle-c{
+    height: 8rem;
+    width: 5rem;
+    position: absolute;
+    top: 34rem;
+    left: 25rem;
+    background-color: black;
+    z-index: 10;
+}
+
+.circle1-c{
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: 35.75rem;
+    left: 21.4rem;
+    z-index: 11;
+}
+.circle2-c{
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+    background-color:white;
+        position: absolute;
+     top: 35.75rem;
+    left: 27.6rem;
+    z-index: 12;
+}
+
+
